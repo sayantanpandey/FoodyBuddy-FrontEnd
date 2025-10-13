@@ -149,7 +149,7 @@ mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net/food-del
 - **CORS** is already enabled in the backend.
 
 
-##⭐ Contribute
+## ⭐ Contribute
 
 Feel free to fork this repo, submit issues, or create pull requests to improve FoodyBuddy.
 Every contribution is welcome 💙
