@@ -50,7 +50,7 @@ npm run dev
 
 Frontend runs by default at 👉 http://localhost:5173
 
-3️⃣ Setup the Backend Server
+### 3️⃣ Setup the Backend Server
 Open another terminal tab:
 ```
 cd server
@@ -71,7 +71,7 @@ npm run dev
 ```
 Backend runs at 👉 http://localhost:4000
 
-4️⃣ Setup the Admin Dashboard
+### 4️⃣ Setup the Admin Dashboard
 Open a new terminal tab:
 ```
 cd admin
@@ -85,7 +85,7 @@ npm run dev
 Admin runs by default at 👉 http://localhost:5174
  (or next available port)
 
- 🔑 Environment Variables — Explained
+ ### 🔑 Environment Variables — Explained
 
  | Variable            | Where       | Description                           |
 | ------------------- | ----------- | ------------------------------------- |
@@ -107,13 +107,13 @@ node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 
 ## Copy the generated string into your .env file as JWT_SECRET.
 
-🧩 Get a Stripe Secret Key
+### 🧩 Get a Stripe Secret Key
 1. Go to https://dashboard.stripe.com
 2. Create or log in to your account
 3. Navigate to Developers → API keys
 4. Copy your Secret key (e.g. sk_test_...) and paste it in .env as STRIPE_SECRET_KEY.
 
-🍃 Get a MongoDB Connection URL
+### 🍃 Get a MongoDB Connection URL
 1. Go to https://cloud.mongodb.com
 2. Create a free cluster
 3. Click “Connect → Connect your application”
